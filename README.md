@@ -20,7 +20,7 @@ User-provided Onyx media, converted and resized for web:
 - Before: IMG_20260912_124403.heic
 - After: IMG_20260912_124503.heic
 
-Review excerpts, address and phone checked against https://onyxautospa.ca/ on 2026-09-12. No aggregate rating is asserted by this page; the supplied form displays its own rating.
+Live Google reviews are provided by the user-supplied ReputationHub widget `6aa5b07e10eca1061669c43d`, using its official resizing script. Static review excerpts were replaced by the live widget. Address and phone were checked against https://onyxautospa.ca/ on 2026-09-12.
 
 ## Validation
 Checked responsive layouts at 320px, 390px and desktop; image loading; CTA navigation; live form rendering and resizing; FAQ interaction; UTM forwarding. Lead submission and CRM follow-up were not tested.
