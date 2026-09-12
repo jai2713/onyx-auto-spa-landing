@@ -27,3 +27,6 @@ Checked responsive layouts at 320px, 390px and desktop; image loading; CTA navig
 
 ## Local preview
 Serve this directory with a static server, for example `python3 -m http.server 8765`.
+
+## Work gallery
+Five additional user-provided Onyx photos: IMG_20260912_124532.heic, IMG_20260912_124619.heic, IMG_20260912_124640.heic, IMG_20260912_124455.heic and IMG_20260912_124650.heic. Converted to compressed JPEGs. Native horizontal scrolling supports touch, keyboard and buttons; no automatic rotation. Images lazy-load.
