@@ -11,9 +11,7 @@ GHL form `N7EyQvNzWatQ19AHRpVW`, served by `portal.thebfsai.com`. GHL controls f
 The live form currently requires email. Make it optional in GHL if desired. Align its small print with the selected-qualifying-services wording on this page. No test lead was submitted during deployment.
 
 ## Custom domain
-Pending Cloudflare DNS review and confirmation of the exact subdomain. No CNAME file has been added. Suggested hostname: `book.onyxautospa.ca`.
-
-After confirmation: add a root `CNAME` with the chosen hostname, configure that hostname in GitHub Pages settings, and add a Cloudflare CNAME pointing to `jai2713.github.io` (no repository path). Use DNS-only while GitHub validates DNS and provisions HTTPS. Enable Enforce HTTPS when ready. Update the absolute `og:image` URL. Preserve the main website and unrelated DNS records.
+Confirmed custom hostname: `book.onyxautospa.ca`. The repository includes a root `CNAME` file and Pages is configured for this hostname. Cloudflare points the DNS-only CNAME to `jai2713.github.io`. GitHub handles hosting and HTTPS. The main website and other DNS records are unchanged.
 
 ## Sources
 User-provided Onyx media, converted and resized for web:
