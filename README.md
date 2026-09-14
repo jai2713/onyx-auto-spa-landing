@@ -30,3 +30,6 @@ Serve this directory with a static server, for example `python3 -m http.server 8
 
 ## Work gallery
 Five additional user-provided Onyx photos: IMG_20260912_124532.heic, IMG_20260912_124619.heic, IMG_20260912_124640.heic, IMG_20260912_124455.heic and IMG_20260912_124650.heic. Converted to compressed JPEGs. Native horizontal scrolling supports touch, keyboard and buttons; no automatic rotation. Images lazy-load.
+
+
+Meta Pixel 1621954292677375 installed September 14, 2026 on index.html and thank-you.html. Base PageView event only, with no-script fallback in body. No advanced matching/customer details or Lead/Purchase/Schedule events added. Meta Events Manager receipt still needs confirmation; source deployment does not establish attribution or booking tracking.
