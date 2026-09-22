@@ -8,7 +8,7 @@ $25 off qualifying packages priced at $100+: Interior Silver, Interior Gold, Int
 Customer-facing names use Interior Silver / Gold / Platinum from [onyxautospa.ca](https://onyxautospa.ca/). The redemption SKUs in [onyx-auto-spa-coupons](https://github.com/jai2713/onyx-auto-spa-coupons) (`Silver`, `Gold`, `Platinum`, `Gloss Boost Polish`, `Window Tint — Front 2`, `Window Tint — Rear 3`, `Window Tint — All`) are the more precise list and are what this page names. Shop should confirm final eligible SKUs before treating this copy as final.
 
 ## Form
-GHL form `N7EyQvNzWatQ19AHRpVW`, served by `portal.thebfsai.com`. GHL controls fields, validation, consent, submission and confirmation. The page forwards allowlisted UTM parameters; verify attribution in GHL with an authorized test lead before paid traffic. No advertising pixel is installed.
+GHL form `N7EyQvNzWatQ19AHRpVW`, served by `portal.thebfsai.com`. GHL controls fields, validation, consent, submission and confirmation. The page forwards allowlisted UTM parameters; verify attribution in GHL with an authorized test lead before paid traffic. Meta Pixel 1621954292677375 tracks PageView only; see verification limits below.
 
 The live form currently requires email. Make it optional in GHL if desired. Align its small print with the named qualifying packages and Sunday, Sept 27 end date on this page. No test lead was submitted during deployment.
 
@@ -35,3 +35,15 @@ Five additional user-provided Onyx photos: IMG_20260912_124532.heic, IMG_2026091
 
 
 Meta Pixel 1621954292677375 installed September 14, 2026 on index.html and thank-you.html. Base PageView event only, with no-script fallback in body. No advanced matching/customer details or Lead/Purchase/Schedule events added. Meta Events Manager receipt still needs confirmation; source deployment does not establish attribution or booking tracking.
+
+
+## September 22 pricing update
+The landing page now highlights only Interior Silver, Gold and Platinum as three pricing cards, directly after the hero. Each shows the regular starting price crossed out, a starting price after the existing $25 credit, inclusions, and a link to the existing GHL claim form. No new booking, payment or lead-submission behavior was introduced.
+
+Starting regular / promotional prices (CAD): Silver $129 / $104; Gold $204.99 / $179.99; Platinum $259 / $234. Verified September 22, 2026 against the official service pages and Square catalog:
+- https://onyxautospa.ca/service/interior-silver/
+- https://onyxautospa.ca/service/interior-gold/
+- https://onyxautospa.ca/service/interior-platinum/
+- https://book.squareup.com/appointments/ppy7ztvss1w3c9/location/L446CJGNEJ2XA/services/DSP24YWDUV35E4J5427IKWVI
+
+All source prices vary by vehicle. The page uses “from” and discloses vehicle/condition adjustments. Gold is visually emphasized as the deeper clean without claiming it is the most popular. Other eligible polish/tint services remain in a short note and offer terms. Existing September 27, 2026 deadline is retained; retire/update this dated promotion when it ends. No automatic expiry or new redemption rules were added.
