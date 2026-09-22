@@ -6,3 +6,27 @@
 .reviews{display:block}.review-widget{min-width:0;border-radius:8px;overflow:hidden}.lc_reviews_widget{display:block}
 /* Work gallery: native scrolling stays usable even without JavaScript. */
 .work-gallery{padding-top:0}.gallery-track{display:flex;gap:20px;overflow-x:auto;scroll-snap-type:x mandatory;scroll-behavior:smooth;overscroll-behavior-x:contain;scrollbar-width:thin;scrollbar-color:var(--line) transparent;padding-bottom:12px}.gallery-slide{flex:0 0 calc((100% - 40px)/3);min-width:0;scroll-snap-align:start}.gallery-slide img{width:100%;height:auto;aspect-ratio:3/4;object-fit:cover;border-radius:5px;background:var(--panel)}.gallery-slide figcaption{display:flex;gap:14px;align-items:baseline;padding:17px 2px;font-size:12px;color:var(--ink)}.gallery-slide figcaption span{color:var(--accent);font-size:10px}.gallery-bottom{display:flex;justify-content:space-between;align-items:center;gap:15px;margin-top:15px}.gallery-bottom>p{font-size:11px;color:var(--muted)}.gallery-bottom>p span{color:var(--accent);padding-left:10px}.gallery-controls{display:flex;align-items:center;gap:10px}.gallery-controls>span{font-size:11px;color:var(--muted);margin-right:12px;min-width:55px}.gallery-controls button{width:46px;height:46px;border:1px solid var(--line);border-radius:50%;background:var(--panel);color:var(--accent);font-size:22px;cursor:pointer}.gallery-controls button:hover:not(:disabled){background:var(--accent);color:#17200d}.gallery-controls button:disabled{opacity:.3;cursor:default}.gallery-controls button:focus-visible,.gallery-track:focus-visible{outline:2px solid var(--accent);outline-offset:4px}@media(max-width:900px){.gallery-slide{flex-basis:calc((100% - 20px)/2)}}@media(max-width:700px){.gallery-track{gap:14px}.gallery-slide{flex-basis:86%}.gallery-slide figcaption{font-size:11px}.gallery-controls button{width:44px;height:44px}.gallery-bottom>p{font-size:10px}}@media(prefers-reduced-motion:reduce){.gallery-track{scroll-behavior:auto}}
+
+/* Conversion quick wins: trust and redemption under the hero CTA, named packages, early reviews, sticky bar clearance. */
+.hero-reassure{margin:16px 0 8px;max-width:440px;color:var(--ink);font-size:15px;font-weight:700;line-height:1.45}
+.hero-reassure .ends{color:var(--accent)}
+.redeem-line{margin:0 0 22px;max-width:440px;color:var(--muted);font-size:14px;line-height:1.5}
+.form-card .form-redeem{max-width:none;margin:0;padding:16px 22px 2px;color:#243024;background:#fff;font-size:14px;font-weight:600}
+.qualifying{margin-top:28px;padding-top:22px;border-top:1px solid var(--line);color:var(--muted);font-size:13px}
+.qualifying>p{margin:0 0 8px}
+.qualifying>a{color:var(--accent);font-size:12px}
+.package-list{display:grid;grid-template-columns:repeat(2,minmax(0,280px));gap:6px 28px;margin:14px 0 18px;padding:0;list-style:none;color:var(--ink);font-size:14px;line-height:1.4}
+.package-list li{padding-left:16px;position:relative}
+.package-list li:before{content:"";position:absolute;left:0;top:.55em;width:6px;height:6px;border-radius:50%;background:var(--accent)}
+.reviews-early{padding-top:12px;padding-bottom:72px}
+.offer-strip p{flex:1;min-width:0}
+@media(max-width:700px){
+  .hero-reassure,.hero-copy>.redeem-line{text-align:center;margin-left:auto;margin-right:auto}
+  .hero-reassure{font-size:13px}
+  .hero-visual>img{object-position:center}
+  .package-list{grid-template-columns:1fr}
+  .reviews-early{padding-top:4px;padding-bottom:48px}
+  body:has(.mobile-cta){padding-bottom:calc(92px + env(safe-area-inset-bottom))}
+  footer{padding-bottom:36px}
+  html{scroll-padding-bottom:calc(92px + env(safe-area-inset-bottom))}
+}

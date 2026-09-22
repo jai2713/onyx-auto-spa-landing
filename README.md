@@ -3,19 +3,21 @@
 Responsive static campaign site. No build step. GitHub Pages publishes the repository root from `main`.
 
 ## Offer
-$25 toward selected qualifying detailing and window tinting services priced at $100+. New and returning customers. One use per customer. Cannot be combined with other offers. No payment required to claim; appointments require confirmation.
+$25 off qualifying packages priced at $100+: Interior Silver, Interior Gold, Interior Platinum, Gloss Boost Polish, and window tint packages (Front 2, Rear 3, or All). Ends Sunday, Sept 27, 2026. New and returning customers. One use per customer. Cannot be combined with other offers. No payment required to claim or book; pay after the service. Appointments require confirmation.
+
+Customer-facing names use Interior Silver / Gold / Platinum from [onyxautospa.ca](https://onyxautospa.ca/). The redemption SKUs in [onyx-auto-spa-coupons](https://github.com/jai2713/onyx-auto-spa-coupons) (`Silver`, `Gold`, `Platinum`, `Gloss Boost Polish`, `Window Tint — Front 2`, `Window Tint — Rear 3`, `Window Tint — All`) are the more precise list and are what this page names. Shop should confirm final eligible SKUs before treating this copy as final.
 
 ## Form
 GHL form `N7EyQvNzWatQ19AHRpVW`, served by `portal.thebfsai.com`. GHL controls fields, validation, consent, submission and confirmation. The page forwards allowlisted UTM parameters; verify attribution in GHL with an authorized test lead before paid traffic. No advertising pixel is installed.
 
-The live form currently requires email. Make it optional in GHL if desired. Align its small print with the selected-qualifying-services wording on this page. No test lead was submitted during deployment.
+The live form currently requires email. Make it optional in GHL if desired. Align its small print with the named qualifying packages and Sunday, Sept 27 end date on this page. No test lead was submitted during deployment.
 
 ## Custom domain
 Confirmed custom hostname: `book.onyxautospa.ca`. The repository includes a root `CNAME` file and Pages is configured for this hostname. Cloudflare points the DNS-only CNAME to `jai2713.github.io`. GitHub handles hosting and HTTPS. The main website and other DNS records are unchanged.
 
 ## Sources
 User-provided Onyx media, converted and resized for web:
-- Hero: IMG_20260912_124517.heic
+- Hero: `assets/onyx-foam-wash.jpg` (Ford Bronco in the bay). The Lamborghini Urus (`assets/onyx-urus.jpg`, formerly the hero) stays in the work gallery.
 - Porsche: IMG_20260912_124608.jpg
 - Before: IMG_20260912_124403.heic
 - After: IMG_20260912_124503.heic
