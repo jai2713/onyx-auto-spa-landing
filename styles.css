@@ -37,3 +37,30 @@
 .pricing-section{padding-block:70px}.pricing-section .eyebrow{font-size:12px}.pricing-section .section-heading p:not(.eyebrow){font-size:16px}.pricing-section .section-heading p strong{color:var(--ink);font-weight:500}.pricing-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:20px}.price-card{min-width:0;display:flex;flex-direction:column;padding:30px;border:1px solid #464e41;border-radius:8px;background:var(--bg)}.price-card-featured{border-color:var(--accent);background:#22291e}.package-kicker{font-size:12px;color:var(--accent);letter-spacing:.08em;font-weight:700;margin:0}.price-card h3{font-size:36px;line-height:1.2;letter-spacing:-.03em;margin:16px 0 12px}.package-description{font-size:16px;line-height:1.5;color:var(--muted);margin:0 0 24px;min-height:4.5em}.package-price{padding:22px 0;border-top:1px solid var(--line);border-bottom:1px solid var(--line)}.regular-price{display:block;color:var(--muted);font-size:16px;margin-bottom:10px}.regular-price del{text-decoration-thickness:2px}.package-price>div{display:flex;align-items:baseline;gap:8px}.from-label{font-size:16px;color:var(--muted)}.package-price strong{font-size:clamp(40px,4vw,58px);line-height:1.15;letter-spacing:-.04em;color:var(--accent);white-space:nowrap}.package-price strong small{font-size:.65em}.credit-note{font-size:14px;color:var(--muted)}.price-card ul{list-style:none;padding:0;margin:24px 0 30px;flex:1}.price-card li{position:relative;padding-left:24px;margin:12px 0;font-size:15px;line-height:1.5}.price-card li:before{content:'✓';position:absolute;left:0;color:var(--accent)}.price-card .button{width:100%;font-size:15px;gap:12px}.all-packages{font-size:16px;margin:25px 0 12px}.pricing-note,.other-services{font-size:14px;line-height:1.65;color:var(--muted);max-width:980px}.pricing-note a,.other-services a{color:var(--accent);text-decoration:underline;text-underline-offset:3px}.other-services{margin:22px 0 0;padding-top:20px;border-top:1px solid var(--line)}.reviews-early{padding-top:70px}
 @media(max-width:1000px){.price-card{padding:24px 20px}.pricing-grid{gap:14px}.package-description{min-height:6em}}
 @media(max-width:700px){.campaign-strip .wrap{display:flex;align-items:center;gap:12px;text-align:left}.campaign-strip p{font-size:12px;line-height:1.5}.campaign-strip strong{display:block}.campaign-strip .offer-deadline{display:block;font-size:12px}.campaign-strip a{max-width:88px;font-size:12px;white-space:normal}.hero .eyebrow{font-size:11px}.hero h1{font-size:clamp(54px,16vw,70px)}.hero .intro{font-size:17px}.hero-price{gap:6px 10px}.hero-price>span{font-size:15px}.hero-price strong{font-size:40px}.hero-price small{font-size:12px}.hero-actions{flex-direction:column;gap:18px}.hero-actions .button{width:100%}.hero .hero-visual{height:340px}.pricing-section{padding-block:48px}.pricing-section .eyebrow{font-size:11px}.pricing-section .section-heading p:not(.eyebrow){font-size:16px}.pricing-grid{grid-template-columns:1fr;gap:18px}.price-card{padding:26px}.package-description{min-height:0;max-width:36ch}.package-price strong{font-size:54px}.price-card h3{font-size:34px}.reviews-early{padding-top:48px}}
+
+/* Keep the Gold ad, vehicle pricing and claim steps consistent. */
+.hero-price>span:first-child{flex-basis:100%;font-size:16px}
+.hero-price .price-tax{font-size:16px;color:var(--muted)}
+.hero-price small{font-size:14px}
+.hero-price{margin-bottom:14px}
+.price-reassurance{max-width:490px;margin:0 0 24px;color:var(--muted);font-size:14px;line-height:1.55}
+.price-reassurance strong{display:block;color:var(--ink);margin-bottom:4px}
+.hero-trust{font-size:14px;gap:8px 20px}
+.hero-trust a{text-decoration:underline;text-underline-offset:4px}
+.form-guidance{padding:18px 22px 6px;color:#243024;font-size:14px;line-height:1.55}
+.form-guidance p{margin:0 0 12px}
+.steps p,.faq details p,.terms{font-size:14px}
+@media(max-width:700px){
+  .hero .intro{font-size:16px}
+  .hero-reassure{font-size:14px}
+  .hero-trust{justify-content:flex-start;font-size:14px}
+  .mobile-cta{gap:10px;padding-inline:16px}
+  .mobile-cta>span{min-width:0}
+  .mobile-cta strong{display:block;font-size:13px;letter-spacing:0;line-height:1.4}
+  .mobile-cta small{font-size:12px}
+  .mobile-cta .button{flex-shrink:0;font-size:14px;gap:10px;padding:12px 14px}
+  .claim-copy .terms{font-size:14px}
+}
+
+.hero h1{font-size:clamp(48px,5.3vw,72px);line-height:1.06;letter-spacing:-.045em}
+@media(max-width:700px){.hero h1{font-size:clamp(42px,12vw,58px)}}
